@@ -147,19 +147,23 @@ gemini
 
 1.  **Pilih Metode Login:**
     Akan muncul 3 opsi. Pilih **No. 1** (Login with Google).
-    ![Menu Login Gemini](images/gemini-login.png)
+    
+    <img src="images/gemini-login.png" alt="Menu Login Gemini" width="600"/>
 
 2.  **Dapatkan Link Autentikasi:**
     Gemini akan memberikan link URL panjang. Salin link tersebut.
-    ![Link Login Gemini](images/gemini-link.png)
+    
+    <img src="images/gemini-link.png" alt="Link Login Gemini" width="600"/>
 
 3.  **Buka di Browser:**
     Buka browser di laptop/PC Anda, paste link tadi, dan login menggunakan akun Google Anda. Setelah berhasil, salin **Token** yang muncul.
-    ![Token Browser](images/gemini-token.png)
+    
+    <img src="images/gemini-token.png" alt="Token Browser" width="600"/>
 
 4.  **Paste Token & Mulai Chat:**
     Kembali ke terminal, paste token, lalu tekan Enter. Anda akan melihat tampilan awal chat.
-    ![Gemini Ready](images/gemini.png)
+    
+    <img src="images/gemini.png" alt="Gemini Ready" width="600"/>
 
 ---
 
@@ -265,10 +269,15 @@ Anda dapat meminta Gemini untuk membuatkan container baru tanpa perlu mengetik p
 > "Tolong buatkan container LXC baru di Proxmox host saya (192.168.1.167). Gunakan ID 105, hostname 'nginx-server', pakai template Debian 13 yang sudah tersedia, alokasikan 1 Core CPU, Memory 512MB, Storage local-lvm sebesar 4GB, dan gunakan network bridge vmbr0 dengan IP DHCP."
 
 **Preview Eksekusi di Gemini:**
-![Gemini Creating CT](images/gemini-ct.png)
+
+<img src="images/gemini-ct.png" alt="Gemini Creating CT" width="600"/>
 
 **Hasil di Proxmox GUI:**
-![Proxmox New CT](images/proxmox-ct.png)
+
+<img src="images/proxmox-ct.png" alt="Proxmox New CT" width="600"/>
+
+---
+
 
 ### Kasus 2: Konfigurasi DNS OpenWRT Remote
 Jika Anda memiliki perangkat jaringan lain (seperti OpenWRT) yang bisa diakses via SSH, Gemini juga bisa mengelolanya.
@@ -281,10 +290,13 @@ Jika Anda memiliki perangkat jaringan lain (seperti OpenWRT) yang bisa diakses v
 **Preview Eksekusi:**
 
 **A. Sebelum (Cek Konfigurasi Awal):**
-![OpenWRT Before](images/openwrt.png)
+
+<img src="images/openwrt.png" alt="OpenWRT Before" width="600"/>
 
 **B. Proses Eksekusi Gemini:**
-![Gemini Config DNS](images/gemini-dns.png)
+
+<img src="images/gemini-dns.png" alt="Gemini Config DNS" width="600"/>
 
 **C. Sesudah (Verifikasi Perubahan):**
-![OpenWRT After](images/openwrtafter.png)
+
+<img src="images/openwrtafter.png" alt="OpenWRT After" width="600"/>
